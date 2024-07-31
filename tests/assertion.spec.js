@@ -1,7 +1,7 @@
 import {test, expect} from "@playwright/test";
 import {type} from "node:os";
 
-test.describe("learn assertions", () => {
+test.describe.only("learn assertions", () => {
     test('verify web page behavior', async ({page}) => {
         await page.goto('https://the-internet.herokuapp.com')
         // first assertion to have URL
