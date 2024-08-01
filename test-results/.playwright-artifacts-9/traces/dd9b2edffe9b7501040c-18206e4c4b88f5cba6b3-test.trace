@@ -1,0 +1,25 @@
+{"version":7,"type":"context-options","origin":"testRunner","browserName":"","options":{},"platform":"darwin","wallTime":1722497850694,"monotonicTime":5383.941,"sdkLanguage":"javascript"}
+{"type":"before","callId":"hook@1","startTime":5384.354,"class":"Test","method":"step","apiName":"Before Hooks","params":{},"stack":[]}
+{"type":"before","callId":"fixture@2","parentId":"hook@1","startTime":5385.295,"class":"Test","method":"step","apiName":"fixture: context","params":{},"stack":[]}
+{"type":"before","callId":"pw:api@3","parentId":"fixture@2","startTime":5385.65,"class":"Test","method":"step","apiName":"browser.newContext","params":{"acceptDownloads":"accept","bypassCSP":"false","colorScheme":"light","deviceScaleFactor":"1","hasTouch":"false","ignoreHTTPSErrors":"false","isMobile":"false","javaScriptEnabled":"true","locale":"en-US","offline":"false","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.6533.17 Safari/537.36","viewport":"Object","serviceWorkers":"allow","noDefaultViewport":"false","extraHTTPHeaders":"undefined","storageState":"undefined","recordHar":"undefined","reducedMotion":"undefined","forcedColors":"undefined"},"stack":[]}
+{"type":"after","callId":"pw:api@3","endTime":5387.736,"attachments":[]}
+{"type":"after","callId":"fixture@2","endTime":5388.983,"attachments":[]}
+{"type":"before","callId":"fixture@4","parentId":"hook@1","startTime":5389.176,"class":"Test","method":"step","apiName":"fixture: page","params":{},"stack":[]}
+{"type":"before","callId":"pw:api@5","parentId":"fixture@4","startTime":5389.715,"class":"Test","method":"step","apiName":"browserContext.newPage","params":{},"stack":[]}
+{"type":"after","callId":"pw:api@5","endTime":5430.321,"attachments":[]}
+{"type":"after","callId":"fixture@4","endTime":5430.39,"attachments":[]}
+{"type":"after","callId":"hook@1","endTime":5430.406,"attachments":[]}
+{"type":"before","callId":"pw:api@6","startTime":5431.082,"class":"Test","method":"step","apiName":"page.goto","params":{"url":"https://playwright.dev/","waitUntil":"load"},"stack":[{"file":"/Users/sebastienroland/Developer/Playwright_Course/tests/example.spec.js","line":14,"column":16}]}
+{"type":"after","callId":"pw:api@6","endTime":6033.388,"attachments":[]}
+{"type":"before","callId":"pw:api@7","startTime":6036.002,"class":"Test","method":"step","apiName":"locator.click","params":{"selector":"internal:role=link[name=\"Get started\"i]","strict":"true"},"stack":[{"file":"/Users/sebastienroland/Developer/Playwright_Course/tests/example.spec.js","line":17,"column":57}]}
+{"type":"after","callId":"pw:api@7","endTime":6088.405,"attachments":[]}
+{"type":"before","callId":"expect@8","startTime":6088.891,"class":"Test","method":"step","apiName":"expect.toBeVisible","params":{},"stack":[{"file":"/Users/sebastienroland/Developer/Playwright_Course/tests/example.spec.js","line":20,"column":69}]}
+{"type":"after","callId":"expect@8","endTime":6274.0779999999995,"attachments":[]}
+{"type":"before","callId":"hook@9","startTime":6274.697,"class":"Test","method":"step","apiName":"After Hooks","params":{},"stack":[]}
+{"type":"before","callId":"fixture@10","parentId":"hook@9","startTime":6275.284,"class":"Test","method":"step","apiName":"fixture: page","params":{},"stack":[]}
+{"type":"after","callId":"fixture@10","endTime":6275.335,"attachments":[]}
+{"type":"before","callId":"fixture@11","parentId":"hook@9","startTime":6275.766,"class":"Test","method":"step","apiName":"fixture: context","params":{},"stack":[]}
+{"type":"after","callId":"fixture@11","endTime":6275.801,"attachments":[]}
+{"type":"after","callId":"hook@9","endTime":6397.455,"attachments":[]}
+{"type":"before","callId":"attach@12","startTime":6496.179,"class":"Test","method":"step","apiName":"attach \"trace\"","params":{},"stack":[]}
+{"type":"after","callId":"attach@12","endTime":6496.269,"attachments":[]}
